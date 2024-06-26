@@ -12,7 +12,7 @@ Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo
 
 2. Modifica el ejercicio anterior con un método que nos permita editar un elemento de la lista. Debe hacer uso del método `map` de `Optional`. Debe devolver un `Optional` con el elemento editado, o un `Optional.empty`.
 
-Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../Ejemplos/02.8_Ejercicio02/)
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../Ejemplos/02.8_Ejercicio2/)
 
 ## Otros ejercicios resueltos
 
