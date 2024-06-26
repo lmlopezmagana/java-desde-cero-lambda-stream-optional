@@ -4,7 +4,7 @@
 
 1. Partiendo del modelo de datos de la siguiente imagen:
 
-![Modelo de datos](../../03.8_Ejercicio01/Main.png)
+![Modelo de datos](../../Ejemplos/03.8_Ejercicio01/Main.png)
 
 Implementar las siguientes consultas
 
