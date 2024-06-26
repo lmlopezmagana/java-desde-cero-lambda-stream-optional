@@ -14,10 +14,10 @@ Implementar las siguientes consultas
 
 > El método `anyMatch` es un método terminal (que finaliza el `Stream` devolviendo un valor) similar a `filter`. Devuelve `true` si se cumple un predicado, y `false` en otro caso.
 
-Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../Ejemplos/03.08_Ejercicio01/)
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../Ejemplos/03.8_Ejercicio01/)
 
 
-2. Partiendo del modelo de datos del ejemplo [3.10 sobre reduce](.), implementar las siguientes características:
+2. Partiendo del modelo de datos del ejemplo [3.11 sobre reduce](../../Ejemplos/03.11_Reduce/), implementar las siguientes características:
 
 - Un record, llamado `Pair`, que sea genérico y nos permita agrupar dos valores
 - Añadir a la clase `Venta` dos métodos que devolverán un `Map<String,Double>` para calcular:
