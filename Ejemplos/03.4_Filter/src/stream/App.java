@@ -33,7 +33,7 @@ public class App {
         System.out.println();
         
         // Más de un predicado
-        System.out.println("Personas con más de 35 años de Madrid o Barcelona");
+        System.out.println("Personas con menos de 35 años de Madrid o Barcelona");
         personas.stream()
         	.filter(p -> p.getEdad() < 35)
         	.filter(p -> List.of("Madrid", "Barcelona").contains(p.getCiudad()))
@@ -41,7 +41,7 @@ public class App {
         System.out.println();
 
         // Predicado "complejo"
-        System.out.println("Personas con más de 35 años de Madrid o Barcelona (2)");
+        System.out.println("Personas con menos de 35 años de Madrid o Barcelona (2)");
         personas.stream()
         	.filter(p -> p.getEdad() < 35 && List.of("Madrid", "Barcelona").contains(p.getCiudad()))
         	.forEach(System.out::println);
@@ -51,7 +51,7 @@ public class App {
         Predicate<Persona> edadMenor35 = (Persona p) -> p.getEdad() < 35;
         Predicate<Persona> esDeMadridOBarcelona = (Persona p) -> List.of("Madrid", "Barcelona").contains(p.getCiudad());
         
-        System.out.println("Personas con más de 35 años de Madrid o Barcelona (3)");
+        System.out.println("Personas con menos de 35 años de Madrid o Barcelona (3)");
         personas.stream()
         	.filter(edadMenor35.and(esDeMadridOBarcelona))
         	.forEach(System.out::println);
